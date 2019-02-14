@@ -1,0 +1,55 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #e2e2e2;
+}
+
+/*
+.grey {
+  background-color: #e2e2e2;
+  padding-top: 1em;
+  padding-left: 1em;
+} */
+
+.blue {
+  background-color: #0074d9;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #e2e2e2;
+  color: #fff;
+  padding-top: 1.25em;
+}
+
+a {
+  text-decoration: none;
+  padding: 1em;
+  padding-bottom: 2em;
+  color: #0074d9;
+}
+a:hover,
+a:focus {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: .75em;
+}
