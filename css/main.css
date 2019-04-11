@@ -45,11 +45,15 @@ a {
   text-decoration: none;
   color: #0074d9;
 }
+
 a:hover,
 a:focus,
 .current,
 .current:visited {
   background-color: #0074d9;
   color: #fff;
+}
 
+h1 {
+  text-align: left;
 }
